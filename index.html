@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>reel reviews homepage</title>
+      <link rel="stylesheet" href="main.css">
+      <script src="script.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <header>
+      <ul class="navbar">
+          <li> <a class="active" href="#signin">Sign In</a></li>
+          <li> <a href="#gallery">Gallery</a></li>
+          <li> <a href="#reviews">Reviews</a></li>
+          <li> <a href="#contactus">Contact Us</a></li>
+
+          <div class="rightlogo">
+            <li> <img class="logo" src="logo.png"></li>
+          </div>
+      </ul>
+    </header>
+
+    <h1 class="title">Contact Us</h1>
+
+    <form class="container" id="myForm" onsubmit="send()">
+      <label for="fname">First Name</label>
+      <input class="input" type="text" id="fname" name="firstname" placeholder="Your name..." required>
+
+      <label for="lname">Last Name</label>
+      <input class="input" type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+
+      <label for="country">Country</label>
+      <select class="input" id="country" name="country">
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="wales">Wales</option>
+        <option value="england">England</option>
+        <option value="scotland">Scotland</option>
+      </select>
+
+      <label for="email">Email</label>
+      <input class="input" type="email" placeholder="Email address">  
+
+      <input class="submitButton" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
