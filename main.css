@@ -1,8 +1,13 @@
-/* Thara's work */
+/* Top of page */
 body {
-  background-color: black;
+  background-image: url("peakyblinderstommy.jpg");
+  background-color:black;
   margin: 0px;
   font-family: 'Quicksand', sans-serif;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 
 .navbar {
@@ -58,7 +63,7 @@ li a:hover:not(.active) {
 }
 
 .input {
-  width: 100%; 
+  width: 100%;
   padding: 12px; 
   border: 1px solid #ccc; 
   border-radius: 4px; 
@@ -85,4 +90,4 @@ li a:hover:not(.active) {
 .container {
   padding: 20px;
   color:white;
-} 
+}
